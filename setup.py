@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
   long_description = fh.read()
 
 install_requires = [
-    "transformers[torch]==4.30.2",
-    "sentencepiece==0.1.99",
+    "transformers[torch]",
+    "sentencepiece",
     "datasets",
 ]
 
